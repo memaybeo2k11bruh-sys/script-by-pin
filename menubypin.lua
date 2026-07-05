@@ -87,7 +87,7 @@ local function CreateButton(name, text, color, widthScale, xPos, callback)
 end
 
 ---------------------------------------------------------
--- CHỨC NĂNG 1: TỐC ĐỘ (FIX ĐỔI CHỮ LỖI)
+-- CHỨC NĂNG 1: TỐC ĐỘ (CÓ Ô NHẬP SỐ)
 ---------------------------------------------------------
 local speedEnabled = false
 local speedValue = 100
@@ -141,7 +141,7 @@ end)
 buttonCount = buttonCount + 1
 
 ---------------------------------------------------------
--- CHỨC NĂNG 2: FLING
+-- CHỨC NĂNG 2: FLING (HÚC VĂNG ĐỊCH)
 ---------------------------------------------------------
 local flingEnabled = false
 local FlingBtn
@@ -218,7 +218,7 @@ end)
 buttonCount = buttonCount + 1
 
 ---------------------------------------------------------
--- CHỨC NĂNG 4: FIX LAG
+-- CHỨC NĂNG 4: FIX LAG AN TOÀN
 ---------------------------------------------------------
 local LagBtn
 LagBtn = CreateButton("LagBtn", "SIÊU FIX LAG CHỐNG ĐƠ", Color3.fromRGB(85, 95, 105), 1, 0.05, function()
